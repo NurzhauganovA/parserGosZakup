@@ -91,7 +91,8 @@ def checkTrigger():
         scr.type = "text";
         scr.value = "{deadline_start}"
         '''
-        driver.execute_async_script(execu)
+        driver.execute_script(execu)
+        continue
 
 
 if __name__ == '__main__':
